@@ -26,6 +26,24 @@ ul {
     padding: 0;
 }
 
+.hidden {
+    display: none;
+}
+
+.scroller {
+    background-color: darkblue;
+    width: 60px;
+    height: 70px;
+    border-radius: 6px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
 a {
     text-decoration: none;
 }

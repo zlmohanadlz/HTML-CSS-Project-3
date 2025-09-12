@@ -30,18 +30,19 @@ window.addEventListener("scroll", () => {
             statusEl.forEach((el) => counterAccelerator(el));
         }
         started2 = true;
+        // to prevent it from calling the counterAcc every time window scroll to that position
     }
 });
 
 function counterAccelerator(el) {
     let limit = el.dataset.counter;
-    let number = parseInt(el.textContent);
+    let number = parseInt(el.textContent); // + will concat with text so we first convert to number
     let count = setInterval(() => {
         number++;
         el.textContent = number;
         if (el.textContent == limit) {
             clearInterval(count);
-            statusEl[3].textContent += "K";
+            statusEl[3].textContent += "K"; // for The last one K Thousands
         }
     }, 2000 / limit);
 }
@@ -105,6 +106,25 @@ document.onkeyup = function (e) {
         menu.classList.remove("open");
     }
 };
+
+// Scroll To Top
+
+let scroller = document.querySelector(".scroller");
+
+window.addEventListener("scroll", () => {
+    if (this.scrollY >= 1000) {
+        scroller.classList.remove("hidden");
+    } else {
+        scroller.classList.add("hidden");
+    }
+});
+
+scroller.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});
 
 /*
 📌 In your hamburger menu
