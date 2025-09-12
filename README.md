@@ -2,7 +2,7 @@
 
 **Live Demo:** https://zlmohanadlz.github.io/HTML-CSS-Project-3
 
-A responsive, multi‑section website built with semantic **HTML5**, modern **CSS3**, and a small amount of **vanilla JavaScript** for interactivity. This project is ideal as a learning resource, a starter template, or the base of a personal portfolio.
+A responsive, multi‑section website built with semantic **HTML5**, modern **CSS3**, and a small amount of **vanilla JavaScript** for interactivity. This project is ideal as a learning resource, a starter template.
 
 ---
 
@@ -31,7 +31,7 @@ A responsive, multi‑section website built with semantic **HTML5**, modern **CS
 
 This repository contains a complete, responsive landing site composed of multiple UI sections (Articles, Gallery, Features, Testimonials, Team, Services, Skills, How It Works, Events, Pricing, Top Videos, Stats, Discount/Contact, and Footer). The layout emphasizes clean typography, spacing, and reusable components.
 
-Use this project to:
+Used this project to:
 
 -   practice semantic HTML and modern CSS techniques (Flexbox, Grid, variables, transitions)
 -   understand how to organize static assets (images, webfonts)
@@ -94,33 +94,6 @@ HTML-CSS-Project-3/
 └─ README.md            # This documentation
 ```
 
-> **Note:** Folder names are case‑sensitive on many systems (e.g., `Css/`, `JS/`).
-
----
-
-## Getting Started
-
-### 1) Clone the repository
-
-```bash
-git clone https://github.com/zlmohanadlz/HTML-CSS-Project-3.git
-cd HTML-CSS-Project-3
-```
-
-### 2) Open locally
-
-Just open `index.html` in your browser.
-
-**Optional (local server):**
-
-```bash
-# using Node.js http-server
-npx http-server . -p 8080
-# then visit http://localhost:8080
-```
-
-No build tools are required.
-
 ---
 
 ## Usage
@@ -180,7 +153,7 @@ The project uses a minimal `JS/main.js`. Typical behaviors include:
 
 ## Accessibility Notes
 
--   Use **semantic elements** (`header`, `nav`, `main`, `section`, `footer`).
+-   Uses **semantic elements** (`header`, `nav`, `main`, `section`, `footer`).
 -   Ensure **sufficient color contrast** between text and backgrounds.
 -   Provide **`alt` text** for informative images.
 -   Maintain a **logical heading order** (H1 → H2 → H3 …).
@@ -188,43 +161,9 @@ The project uses a minimal `JS/main.js`. Typical behaviors include:
 
 ---
 
-## Performance Tips
-
--   **Optimize images** (compress, use appropriate dimensions and formats).
--   **Preload key fonts** and define font‑display behavior (e.g., `swap`).
--   **Minify** CSS/JS for production (optional for small projects).
--   **Defer** non‑critical JS or place `<script>` tags at the end of `body`.
-
----
-
-## Deployment (GitHub Pages)
-
-This repository is configured to serve a static site.
-
-1. Push changes to your default branch (usually `main`).
-2. In the repo, open **Settings → Pages**.
-3. Choose **Branch: `main`** and **Folder: `/ (root)`**.
-4. Save – your site will be available at `https://<username>.github.io/<repo>`.
-
-If already enabled, your live site is here:
-
--   https://zlmohanadlz.github.io/HTML-CSS-Project-3
-
----
-
 ## Contributing
 
 Contributions, issues, and feature requests are welcome.
-
-**Workflow**
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "feat: add your feature"`
-4. Push the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
-Please follow conventional commit messages when possible (e.g., `feat:`, `fix:`, `docs:`, `style:`, `refactor:`).
 
 ---
 
@@ -238,5 +177,3 @@ No explicit license file is present in this repository at the time of writing. I
 
 -   **Author:** Mohanad ([@zlmohanadlz](https://github.com/zlmohanadlz))
 -   **Assets:** Images and webfonts under `/images` and `/webfonts` are included for demo purposes. Replace them with your own or ensure you have rights to use them.
-
-If you use this template, a link back is appreciated but not required. Happy building! 🚀
