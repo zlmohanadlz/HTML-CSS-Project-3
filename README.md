@@ -175,5 +175,6 @@ No explicit license file is present in this repository at the time of writing. I
 
 ## Credits
 
--   **Author:** Mohanad ([@zlmohanadlz](https://github.com/zlmohanadlz))
+-   **Author:** Mohanad ([@zlmohanadlz](https://github.com/zlmohanadlz)) - [Linkedin Profile](https://www.linkedin.com/in/mohanad-ayoub-55bb29382)
+
 -   **Assets:** Images and webfonts under `/images` and `/webfonts` are included for demo purposes. Replace them with your own or ensure you have rights to use them.
